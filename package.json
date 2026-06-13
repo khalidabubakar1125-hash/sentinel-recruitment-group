@@ -1,0 +1,24 @@
+{
+  "name": "cheap-flight-finder",
+  "version": "1.0.0",
+  "description": "Find the cheapest flights worldwide with luggage allowance",
+  "main": "src/index.js",
+  "type": "module",
+  "bin": {
+    "flights": "./src/index.js"
+  },
+  "scripts": {
+    "start": "node src/index.js",
+    "search": "node src/index.js search",
+    "explore": "node src/index.js explore"
+  },
+  "dependencies": {
+    "axios": "^1.7.2",
+    "chalk": "^5.3.0",
+    "cli-table3": "^0.6.3",
+    "commander": "^12.1.0",
+    "dotenv": "^16.4.5",
+    "inquirer": "^10.1.0",
+    "ora": "^8.0.1"
+  }
+}
